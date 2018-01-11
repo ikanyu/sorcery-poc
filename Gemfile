@@ -9,6 +9,8 @@ gem 'sorcery'
 gem "better_errors"
 gem "binding_of_caller"
 gem 'spring'
+gem 'rolify'
+gem 'cancancan', '~>2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'

@@ -22,5 +22,9 @@
     <%= f.label :password_confirmation %><br/>
     <%= f.password_field :password_confirmation %>
   </div>
+  <div class="field">
+    <%= f.check_box :admin_role %>
+    <%= f.label 'Admin' %>
+  </div>
   <%= f.submit %>
 <% end %>
